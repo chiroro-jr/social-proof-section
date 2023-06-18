@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- displays site properly based on user's device -->
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+  <title>Frontend Mentor | Social proof section</title>
+</head>
+
+<body class="font-league-spartan">
+
+  <main class="min-h-screen bg-magenta-light-grayish relative">
+    <!-- Decorative elements -->
+    <div class="w-full bg-magenta-light-grayish absolute inset-0">
+      <!-- Mobile Decorations -->
+      <img src="./images/bg-pattern-top-mobile.svg" alt="" class="block md:hidden absolute top-0 left-0">
+      <img src="./images/bg-pattern-bottom-mobile.svg" alt="" class="block md:hidden absolute bottom-0 right-0">
+
+      <!-- Desktop Decorations -->
+      <img src="./images/bg-pattern-top-desktop.svg" alt="" class="md:block hidden absolute top-0 left-0">
+      <img src="./images/bg-pattern-bottom-desktop.svg" alt="" class="md:block hidden absolute bottom-0 right-0">
+    </div>
+
+    <!-- Content -->
+    <div
+      class="relative z-10 px-2 py-20 lg:py-[7.5rem] w-11/12 max-w-6xl mx-auto space-y-10 lg:space-y-0 lg:grid-content lg:grid lg:gap-x-40 lg:gap-y-16">
+      <div class="space-y-3 lg:space-y-5 lg:col-[1/2] lg:row-[1/2]">
+        <h1
+          class="text-magenta-very-dark font-semibold text-[2rem] leading-7 md:text-5xl md:leading-9 text-center lg:text-start">
+          10,000+ of
+          our<br> users
+          love
+          our<br>
+          products.</h1>
+        <p
+          class="text-center lg:text-start lg:ml-0 text-magenta-very-dark/80 text-sm md:text-base md:max-w-sm mx-auto leading-5">
+          We only
+          provide
+          great products combined with
+          excellent customer
+          service.
+          See what our satisfied customers are saying about our services.</p>
+      </div>
+      <div class="grid gap-3.5 lg:gap-3 lg:py-3 md:grid-cols-3 lg:grid-stars lg:col-[2/3] lg:row-[1/2]">
+        <div
+          class="bg-magenta-dark-grayish/10 rounded-lg p-3 flex flex-col gap-2 lg:flex-row lg:justify-between lg:items-center lg:gap-0 lg:px-6 lg:col-[1/4] lg:row-[1/2]">
+          <ul class="flex justify-center items-center gap-2">
+            <li><img src="./images/icon-star.svg" alt=""></li>
+            <li><img src="./images/icon-star.svg" alt=""></li>
+            <li><img src="./images/icon-star.svg" alt=""></li>
+            <li><img src="./images/icon-star.svg" alt=""></li>
+            <li><img src="./images/icon-star.svg" alt=""></li>
+          </ul>
+          <p class="font-bold text-sm text-center text-magenta-very-dark">Rated 5 Stars in Reviews</p>
+        </div>
+        <div
+          class="bg-magenta-dark-grayish/10 rounded-lg p-3 flex flex-col lg:flex-row lg:justify-between lg:items-center lg:gap-0 lg:px-6 gap-2 lg:col-[2/5] lg:row-[2/3]">
+          <ul class="flex justify-center items-center gap-2">
+            <li><img src="./images/icon-star.svg" alt=""></li>
+            <li><img src="./images/icon-star.svg" alt=""></li>
+            <li><img src="./images/icon-star.svg" alt=""></li>
+            <li><img src="./images/icon-star.svg" alt=""></li>
+            <li><img src="./images/icon-star.svg" alt=""></li>
+          </ul>
+          <p class="font-bold text-sm text-center text-magenta-very-dark">Rated 5 Stars in Report Guru</p>
+        </div>
+        <div
+          class="bg-magenta-dark-grayish/10 rounded-lg p-3 flex flex-col gap-2 lg:flex-row lg:justify-between lg:items-center lg:gap-0 lg:px-6 lg:col-[3/6] lg:row-[3/4]">
+          <ul class="flex justify-center items-center gap-2">
+            <li><img src="./images/icon-star.svg" alt=""></li>
+            <li><img src="./images/icon-star.svg" alt=""></li>
+            <li><img src="./images/icon-star.svg" alt=""></li>
+            <li><img src="./images/icon-star.svg" alt=""></li>
+            <li><img src="./images/icon-star.svg" alt=""></li>
+          </ul>
+          <p class="font-bold text-sm text-center text-magenta-very-dark">Rated 5 Stars in BestTech</p>
+        </div>
+      </div>
+      <div class="grid gap-4 md:grid-cols-3 lg:grid-reviews lg:gap-x-6 lg:col-[1/-1] lg:row-[2/3]">
+        <div class="bg-magenta-very-dark px-6 py-7 rounded-lg space-y-4 lg:row-[1/4] lg:col-[1/2]">
+          <div class="flex gap-4 items-center">
+            <img class="w-10 h-10 rounded-full" src="./images/image-colton.jpg" alt="colton's profile picture">
+            <p class="flex flex-col">
+              <span class="text-magenta-light-grayish font-semibold text-sm tracking-wider">Colton Smith</span>
+              <span class="text-soft-pink/50 text-sm tracking-wider">Verified Buyer</span>
+            </p>
+          </div>
+          <p class="text-magenta-light-grayish tracking-wider leading-[1.1rem] text-sm lg:text-base">
+            &OpenCurlyDoubleQuote;We needed the same printed design as the one we had ordered a week prior. Not only did
+            they find the
+            original order, but we also received it in time. Excellent!&CloseCurlyDoubleQuote;
+          </p>
+        </div>
+        <div class="bg-magenta-very-dark px-6 py-7 rounded-lg space-y-4 lg:row-[2/5] lg:col-[2/3]">
+          <div class="flex gap-4 items-center">
+            <img class="w-10 h-10 rounded-full" src="./images/image-irene.jpg" alt="irene's profile picture">
+            <p class="flex flex-col">
+              <span class="text-magenta-light-grayish font-semibold text-sm tracking-wider">Irene Roberts</span>
+              <span class="text-soft-pink/50 text-sm tracking-wider">Verified Buyer</span>
+            </p>
+          </div>
+          <p class="text-magenta-light-grayish tracking-wider leading-[1.1rem] text-sm lg:text-base">
+            &OpenCurlyDoubleQuote;Customer service is always excellent and very quick turn around. Completely delighted
+            with the simplicity of
+            the purchase and the speed of delivery.&CloseCurlyDoubleQuote;
+          </p>
+        </div>
+        <div class="bg-magenta-very-dark px-6 py-7 rounded-lg space-y-4 lg:row-[3/6] lg:col-[3/4]">
+          <div class="flex gap-4 items-center">
+            <img class="w-10 h-10 rounded-full" src="./images/image-anne.jpg" alt="colton's profile picture">
+            <p class="flex flex-col">
+              <span class="text-magenta-light-grayish font-semibold text-sm tracking-wider">Anne Wallace</span>
+              <span class="text-soft-pink/50 text-sm tracking-wider">Verified Buyer</span>
+            </p>
+          </div>
+          <p class="text-magenta-light-grayish tracking-wider leading-[1.1rem] text-sm lg:text-base">
+            &OpenCurlyDoubleQuote;Put an order with this company and can only praise them for the very high standard.
+            Will definitely use them
+            again and recommend them to everyone!&CloseCurlyDoubleQuote;
+          </p>
+        </div>
+      </div>
+      <div class="md:fixed md:bottom-0 md:left-0 md:right-0 p-2 text-sm text-center text-magenta-dark-grayish z-20">
+        Challenge by
+        <a class="text-magenta-very-dark hover:underline duration-200 transition-all font-semibold"
+          href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. Coded by <a
+          class="text-magenta-very-dark hover:underline duration-200 transition-all font-semibold"
+          href="https://www.frontendmentor.io/profile/chiroro-jr">Nyasha D.
+          Chiroro</a>.
+      </div>
+    </div>
+  </main>
+
+</body>
+
+</html>

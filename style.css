@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+    .grid-content {
+        grid-template-columns: repeat(2, auto);
+        grid-template-rows: repeat(2, auto);
+    }
+
+    .grid-stars {
+        grid-template-columns: repeat(2, 3rem) 1fr repeat(2, 3rem);
+    }
+
+    .grid-reviews {
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 0.4rem) 1fr repeat(2, 0.4rem);
+    }
+}
