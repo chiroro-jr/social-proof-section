@@ -28,8 +28,8 @@ Users should be able to:
 
 ### Links
 
--   Solution URL: [Add solution URL here](https://your-solution-url.com)
--   Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+-   Solution URL: [https://www.frontendmentor.io/solutions/social-proof-section-using-html-tailwindcss-and-vite--uKqYNJX6C](https://www.frontendmentor.io/solutions/social-proof-section-using-html-tailwindcss-and-vite--uKqYNJX6C)
+-   Live Site URL: [https://social-proof-section-ndc.netlify.app/](https://social-proof-section-ndc.netlify.app/)
 
 ## My process
 
